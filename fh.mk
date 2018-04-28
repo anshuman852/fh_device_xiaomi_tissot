@@ -16,8 +16,8 @@
 
 $(call inherit-product, device/xiaomi/tissot/full_tissot.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common FireHound stuff.
+$(call inherit-product, vendor/fh/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_tissot
 BOARD_VENDOR := Xiaomi
